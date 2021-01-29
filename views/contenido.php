@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-            <h3 class="titulo" >Informacion</h3>
+            <h3 class="titulo" >Información</h3>
             <div class="carrusel">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -30,11 +30,11 @@
             </div>
         </div>
         <div class="col-md-4">
-            <h3 class="titulo" >Tu Recuperacion Es Nuestra Obligacion</h3>
+            <h3 class="titulo" >Tu Recuperación es Nuestra Obligación</h3>
             <embed src="assets/video/colombia.mp4" whidth="400" height="300">
         </div>
         <div class="col-md-4">
-            <h3 class="titulo" >Recuperacion Fisica y Terapia</h3>
+            <h3 class="titulo" >Recuperación Física y Terapia</h3>
             <a href="">
                 <img class="imagen-servicio" src="assets/img/imagen1.jpg" alt="">
             </a>

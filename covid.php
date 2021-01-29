@@ -3,7 +3,7 @@
     <h1 class="card-header">Covid-19</h1>
     <div class="row">
         <div class="col-md-6 servicio">
-            <h2 class="card-header">Protocolo de Desinfeccion</h2>
+            <h2 class="card-header">Protocolo de Desinfección</h2>
             <div class="espacio"></div>
             <iframe width="540" height="315" src="https://www.youtube.com/embed/p5OKjrL40VM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>

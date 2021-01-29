@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Ferest Salud I.P.S. Servicios Generales de Salud</title>
+    <title>Ferest Salud I.P.S. | Servicios Generales de Salud</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -32,11 +32,11 @@
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
                             data-toggle="dropdown" style="color: #0DB1A9; font-size: 1.3rem;">Nuestra Clinica</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="nosotros.php" style="color: #0DB1A9; font-size: 1.3rem;">Quienes Somos</a>
+                            <a class="dropdown-item" href="nosotros.php" style="color: #0DB1A9; font-size: 1.3rem;">¿Quiénes Somos?</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="nosotros.php" style="color: #0DB1A9; font-size: 1.3rem;">Mision</a>
+                            <a class="dropdown-item" href="nosotros.php" style="color: #0DB1A9; font-size: 1.3rem;">Misión</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="nosotros.php" style="color: #0DB1A9; font-size: 1.3rem;">Vision</a>
+                            <a class="dropdown-item" href="nosotros.php" style="color: #0DB1A9; font-size: 1.3rem;">Visión</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="nosotros.php" style="color: #0DB1A9; font-size: 1.3rem;">Valores Corporativos</a>
                         </div>
@@ -45,7 +45,7 @@
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
                             data-toggle="dropdown" style="color: #0DB1A9; font-size: 1.3rem;">Servicios</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="servicios.php" style="color: #0DB1A9; font-size: 1.3rem;">Rehabilitacion</a>
+                            <a class="dropdown-item" href="servicios.php" style="color: #0DB1A9; font-size: 1.3rem;">Rehabilitación</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="servicios.php" style="color: #0DB1A9; font-size: 1.3rem;">Farmacia</a>
                         </div>
@@ -54,18 +54,18 @@
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
                             data-toggle="dropdown" style="color: #0DB1A9; font-size: 1.3rem;">COVID-19 </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="covid.php" style="color: #0DB1A9; font-size: 1.3rem;">Protocolo de Desinfeccion</a>
+                            <a class="dropdown-item" href="covid.php" style="color: #0DB1A9; font-size: 1.3rem;">Protocolo de Desinfección</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="covid.php" style="color: #0DB1A9; font-size: 1.3rem;">Recomendaciones Generales</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" style="color: #0DB1A9; font-size: 1.3rem;">Portal Paciente</a>
+                            data-toggle="dropdown" style="color: #0DB1A9; font-size: 1.3rem;">Portal Pacientes</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="" style="color: #0DB1A9; font-size: 1.3rem;">Atencion Paciente SOAT</a>
+                            <a class="dropdown-item" href="" style="color: #0DB1A9; font-size: 1.3rem;">Atención Pacientes SOAT</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="" style="color: #0DB1A9; font-size: 1.3rem;">Atencion Paciente Particular</a>
+                            <a class="dropdown-item" href="" style="color: #0DB1A9; font-size: 1.3rem;">Atención Pacientes Particulares</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
