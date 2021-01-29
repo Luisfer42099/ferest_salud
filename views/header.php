@@ -12,21 +12,21 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/fontello.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <script>
+    <!--<script>
         alert("Página en Construcción\nMuy pronto podrás acceder a nuestros servicios");
-    </script>
+    </script>-->
   </head>
   <body>
-  <div class="sticky-top">
+  <!--<div class="sticky-top">-->
         <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand" href="index.php"><img src="assets/img/logo.jpg" alt="no se pudo cargar la imagenn"></a>
+            <a class="navbar-brand" href="index.php"><img src="assets/img/logo.jpg" alt="no se pudo cargar la imagenn" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="" style="color: #0DB1A9; font-size: 1.3rem;">Inicio</a>
+                        <a class="nav-link" href="inicio.php" style="color: #0DB1A9; font-size: 1.3rem;">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
@@ -63,27 +63,27 @@
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
                             data-toggle="dropdown" style="color: #0DB1A9; font-size: 1.3rem;">Portal Pacientes</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="" style="color: #0DB1A9; font-size: 1.3rem;">Atención Pacientes SOAT</a>
+                            <a class="dropdown-item" href="portal.php" style="color: #0DB1A9; font-size: 1.3rem;">Atención Pacientes SOAT</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="" style="color: #0DB1A9; font-size: 1.3rem;">Atención Pacientes Particulares</a>
+                            <a class="dropdown-item" href="portal.php" style="color: #0DB1A9; font-size: 1.3rem;">Atención Pacientes Particulares</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
                             data-toggle="dropdown" style="color: #0DB1A9; font-size: 1.3rem;">Sedes</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="" style="color: #0DB1A9; font-size: 1.3rem;">Sede Principal</a>
+                            <a class="dropdown-item" href="sedeprincipal.php" style="color: #0DB1A9; font-size: 1.3rem;">Sede Principal</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="" style="color: #0DB1A9; font-size: 1.3rem;">Sede Administrativa</a>
+                            <a class="dropdown-item" href="#" style="color: #0DB1A9; font-size: 1.3rem;">Sede Administrativa</a>
                         </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="" style="color: #0DB1A9; font-size: 1.3rem;">Contacto</a>
+                        <a class="nav-link" href="sedeprincipal.php" style="color: #0DB1A9; font-size: 1.3rem;">Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
-    </div>
+    <!--</div>-->
       <?php require_once 'socialbar.php'; ?>
       
       

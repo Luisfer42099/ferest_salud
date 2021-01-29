@@ -2,7 +2,7 @@
 <div class="container">
 <h1 class="card-header">Nuestra Clínica</h1>
     <div class="card-group">
-        <div class="card" style="width: 18rem;">
+        <div class="card">
             <div class="card-body">
                 <h5 class="card-title">¿Quiénes Somos?</h5>
                 <p class="card-text">
@@ -30,7 +30,7 @@
     </div>
 </div>
 <div class="container">
-    <div class="card carta-ultima" style="width: 18rem;">
+    <div class="card carta-ultima">
         <div class="card-header">
             Valores Corporativos
         </div>

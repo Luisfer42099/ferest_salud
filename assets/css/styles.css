@@ -1,9 +1,10 @@
 *{ margin: 0; padding: 0%; }
 /* titulos */
 div.espacio{ width: auto; height: 4rem; }
+div.espacio2{ width: auto; height: 2rem; }
 h1.titulo-noticia{ text-align: center; }
 p.contenido-noticia{ text-align: center; }
-h3.titulo{ text-align: center; color: #0DB1A9; }
+.titulo{ text-align: center; color: #0DB1A9; }
 /* logo */
 div.logo{ float: left; }
 @media( max-width: 600px ){ div.logo{ display: none; }}
@@ -44,3 +45,12 @@ ul.lista-servicios li{ list-style: none; text-align: center; }
 div.servicio{ border: 1px solid #b8b7b7; margin: 5px 0px; border-radius: 4%; }
 /*covid*/
 div.recomendaciones p{ text-align: center; }
+/*sedes*/
+img.sedep{ width: auto; height: auto; }
+/*contacto*/
+span.subtitulo{ font-size: 20px; font-weight: bold; }
+p.info{ font-size: 15px; }
+ul.redes li{ list-style: none; font-size: 1.5rem; border: 1px solid #b8b7b7; border-radius: 1rem; text-align: center;}
+ul.redes li:hover{ padding-right: 3rem; border-radius: 1rem 1rem 1rem 1rem; box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.45); }
+ul.redes li a{ text-decoration: none; font-size: 1.2rem;}
+ul.redes li i{ color: #ffffff; border-radius: 1rem 1rem 1rem 1rem;}
