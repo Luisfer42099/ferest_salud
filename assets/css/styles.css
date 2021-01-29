@@ -1,0 +1,46 @@
+*{ margin: 0; padding: 0%; }
+/* titulos */
+div.espacio{ width: auto; height: 4rem; }
+h1.titulo-noticia{ text-align: center; }
+p.contenido-noticia{ text-align: center; }
+h3.titulo{ text-align: center; color: #0DB1A9; }
+/* logo */
+div.logo{ float: left; }
+@media( max-width: 600px ){ div.logo{ display: none; }}
+/* BARRA DE NAVEGACION */
+div.barra-servicios{ padding-left: 80%; margin-top: 16px; }
+@media( max-width: 600px ){ div.barra-servicios{ display: none; }}
+div.barra-servicios a{ padding-top: 1rem; margin-top: 1rem; padding-left: 2rem; font-size: 1.2rem; text-decoration: none; color: #000000; }
+nav.barra{ background-color: #ffffff; opacity: 0.7; padding-top: 1.7rem; }
+nav.barra ul{ right: 10px; }
+nav.barra ul li{ margin: 0px; }
+nav.barra ul li a.dropdown-item:hover{ background-color: #0011ff; color: rgb(255, 255, 255); }
+nav.barra ul li:hover{ background-color: #0011ff; color: rgb(255, 255, 255); }
+nav.barra ul li a{ font-size: 1.2rem; text-decoration: none; color: #0DB1A9; }
+nav.barra ul li a:hover{ cursor: pointer; color: rgb(255, 255, 255); }
+@media( max-width: 600px){ nav.barra{ width: 100%; opacity: unset; }nav.barra ul li{ padding-top: 0%; margin-top: 0%; width: 100%; text-align: center; }}
+/* BARRA SOCIAL */
+.social-bar{ position: fixed; right: 0; top: 35%; font-size: 1.5rem; display: flex; flex-direction: column; align-items: flex-end; z-index: 100; }
+.icon{ color: white; text-decoration: none; padding: .7rem; display: flex; transition: all .5s; }
+.icon-facebook{ background: #2E406E; }
+.icon-instagram{ background: #e1306c; }
+.icon-whatsapp{ background: #00bb2d; }
+.icon:first-child{ border-radius: 1rem 0 0 0; }
+.icon:last-child{ border-radius: 0 0 0 1rem; }
+.icon:hover{ padding-right: 3rem; border-radius: 1rem 0 0 1rem; box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.45); }
+footer{ text-align: center; }
+a.carousel-control-prev{ background-color: #0DB1A9; opacity: 0.7%; color: #ffffff; }
+a.carousel-control-next{ background-color: #0DB1A9; opacity: 0.7%; color: #ffffff; }
+/*imagenes servicios*/
+img.imagen-servicio{ padding-left: 82px; height: 200px; }
+div.leyenda p{ text-align: center; font-size: 1.5rem; }
+/* nosotros */
+h5.card-title{ text-align: center; color: #0DB1A9; }
+.card-header{ text-align: center; color: #0DB1A9; }
+@media( max-width: 600px ){ .carta-ultima{ width: 100%; }}
+/* Servicios */
+h2.card-header{ background-color: #ffffff; }
+ul.lista-servicios li{ list-style: none; text-align: center; }
+div.servicio{ border: 1px solid #b8b7b7; margin: 5px 0px; border-radius: 4%; }
+/*covid*/
+div.recomendaciones p{ text-align: center; }
