@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/fontello.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <!--<script>
+    <script>
         alert("Página en Construcción\nMuy pronto podrás acceder a nuestros servicios");
-    </script>-->
+    </script>
   </head>
   <body>
   <!--<div class="sticky-top">-->
