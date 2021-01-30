@@ -1,8 +1,9 @@
 <?php require_once 'views/header.php'; ?>
 <div class="container">
 <h1 class="card-header">Nuestra Clínica</h1>
-    <div class="card-group">
-        <div class="card">
+
+<div class="card-group">
+<div class="card">
             <div class="card-body">
                 <h5 class="card-title">¿Quiénes Somos?</h5>
                 <p class="card-text">
@@ -27,13 +28,8 @@
             </p>
             </div>
         </div>
-    </div>
-</div>
-<div class="container">
-    <div class="card carta-ultima">
-        <div class="card-header">
-            Valores Corporativos
-        </div>
+        <div class="card">
+            <h5 class="card-title" style="margin-top: 17px;">Valores Corporativos</h5>
         <ul class="list-group list-group-flush">
             <li class="list-group-item">Atención personalizada</li>
             <li class="list-group-item">Transparencia</li>
@@ -47,6 +43,7 @@
             <li class="list-group-item">Ética</li>
             <li class="list-group-item">Equidad</li>
         </ul>
-    </div>    
+    </div>  
+</div>
 </div>
 <?php require_once 'views/footer.php'; ?>

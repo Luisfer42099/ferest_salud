@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/fontello.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <script>
+    <!--<script>
         alert("Página en Construcción\nMuy pronto podrás acceder a nuestros servicios");
-    </script>
+    </script>-->
   </head>
   <body>
   <!--<div class="sticky-top">-->
-        <nav class="navbar navbar-expand-md navbar-light">
+        <nav id="menu" class="navbar navbar-expand-md navbar-light barra sticky-top scrolling-navbar">
             <a class="navbar-brand" href="index.php"><img src="assets/img/logo.jpg" alt="no se pudo cargar la imagenn" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
@@ -26,59 +26,59 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="inicio.php" style="color: #0DB1A9; font-size: 1.3rem;">Inicio</a>
+                        <a class="nav-link" href="inicio.php" >Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" style="color: #0DB1A9; font-size: 1.3rem;">Nuestra Clinica</a>
+                            data-toggle="dropdown" >Nuestra Clinica</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="nosotros.php" style="color: #0DB1A9; font-size: 1.3rem;">¿Quiénes Somos?</a>
+                            <a class="dropdown-item" href="nosotros.php">¿Quiénes Somos?</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="nosotros.php" style="color: #0DB1A9; font-size: 1.3rem;">Misión</a>
+                            <a class="dropdown-item" href="nosotros.php" >Misión</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="nosotros.php" style="color: #0DB1A9; font-size: 1.3rem;">Visión</a>
+                            <a class="dropdown-item" href="nosotros.php" >Visión</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="nosotros.php" style="color: #0DB1A9; font-size: 1.3rem;">Valores Corporativos</a>
+                            <a class="dropdown-item" href="nosotros.php" >Valores Corporativos</a>
                         </div>
                     </li>                                       
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" style="color: #0DB1A9; font-size: 1.3rem;">Servicios</a>
+                            data-toggle="dropdown" >Servicios</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="servicios.php" style="color: #0DB1A9; font-size: 1.3rem;">Rehabilitación</a>
+                            <a class="dropdown-item" href="servicios.php" >Rehabilitación</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="servicios.php" style="color: #0DB1A9; font-size: 1.3rem;">Farmacia</a>
+                            <a class="dropdown-item" href="servicios.php" >Farmacia</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" style="color: #0DB1A9; font-size: 1.3rem;">COVID-19 </a>
+                            data-toggle="dropdown" >COVID-19 </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="covid.php" style="color: #0DB1A9; font-size: 1.3rem;">Protocolo de Desinfección</a>
+                            <a class="dropdown-item" href="covid.php" >Protocolo de Desinfección</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="covid.php" style="color: #0DB1A9; font-size: 1.3rem;">Recomendaciones Generales</a>
+                            <a class="dropdown-item" href="covid.php" >Recomendaciones Generales</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" style="color: #0DB1A9; font-size: 1.3rem;">Portal Pacientes</a>
+                            data-toggle="dropdown" >Portal Pacientes</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="portal.php" style="color: #0DB1A9; font-size: 1.3rem;">Atención Pacientes SOAT</a>
+                            <a class="dropdown-item" href="portal.php" >Atención Pacientes SOAT</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="portal.php" style="color: #0DB1A9; font-size: 1.3rem;">Atención Pacientes Particulares</a>
+                            <a class="dropdown-item" href="portal.php" >Atención Pacientes Particulares</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" style="color: #0DB1A9; font-size: 1.3rem;">Sedes</a>
+                            data-toggle="dropdown" >Sedes</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="sedeprincipal.php" style="color: #0DB1A9; font-size: 1.3rem;">Sede Principal</a>
+                            <a class="dropdown-item" href="sedeprincipal.php" >Sede Principal</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#" style="color: #0DB1A9; font-size: 1.3rem;">Sede Administrativa</a>
+                            <a class="dropdown-item" href="#" >Sede Administrativa</a>
                         </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="sedeprincipal.php" style="color: #0DB1A9; font-size: 1.3rem;">Contacto</a>
+                        <a class="nav-link" href="sedeprincipal.php" >Contacto</a>
                     </li>
                 </ul>
             </div>

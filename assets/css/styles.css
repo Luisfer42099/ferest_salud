@@ -12,12 +12,13 @@ div.logo{ float: left; }
 div.barra-servicios{ padding-left: 80%; margin-top: 16px; }
 @media( max-width: 600px ){ div.barra-servicios{ display: none; }}
 div.barra-servicios a{ padding-top: 1rem; margin-top: 1rem; padding-left: 2rem; font-size: 1.2rem; text-decoration: none; color: #000000; }
-nav.barra{ background-color: #ffffff; opacity: 0.7; padding-top: 1.7rem; }
+nav.barra{ background-color: #ffffff; opacity: 0.9; height: 79px;}
 nav.barra ul{ right: 10px; }
 nav.barra ul li{ margin: 0px; }
-nav.barra ul li a.dropdown-item:hover{ background-color: #0011ff; color: rgb(255, 255, 255); }
-nav.barra ul li:hover{ background-color: #0011ff; color: rgb(255, 255, 255); }
-nav.barra ul li a{ font-size: 1.2rem; text-decoration: none; color: #0DB1A9; }
+nav.barra ul li a.dropdown-item{color: #0DB1A9; }
+nav.barra ul li a.dropdown-item:hover{ background-color: #0DB1A9; color: rgb(255, 255, 255); }
+.navbar-light .navbar-nav .nav-link{font-size: 1.2rem; text-decoration: none; color: #0DB1A9; }
+.navbar-light .navbar-nav .nav-link:hover{ background-color: #0DB1A9; color: #ffffff; }
 nav.barra ul li a:hover{ cursor: pointer; color: rgb(255, 255, 255); }
 @media( max-width: 600px){ nav.barra{ width: 100%; opacity: unset; }nav.barra ul li{ padding-top: 0%; margin-top: 0%; width: 100%; text-align: center; }}
 /* BARRA SOCIAL */
