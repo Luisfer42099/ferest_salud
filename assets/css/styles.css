@@ -1,7 +1,7 @@
 *{ margin: 0; padding: 0%; }
 /* titulos */
 div.espacio{ width: auto; height: 4rem; }
-div.espacio2{ width: auto; height: 2rem; }
+div.espacio2{ width: auto; height: 5rem; }
 h1.titulo-noticia{ text-align: center; }
 p.contenido-noticia{ text-align: center; }
 .titulo{ text-align: center; color: #0DB1A9; }
@@ -46,8 +46,6 @@ ul.lista-servicios li{ list-style: none; text-align: center; }
 div.servicio{ border: 1px solid #b8b7b7; margin: 5px 0px; border-radius: 4%; }
 /*covid*/
 div.recomendaciones p{ text-align: center; }
-/*sedes*/
-img.sedep{ width: auto; height: auto; }
 /*contacto*/
 span.subtitulo{ font-size: 20px; font-weight: bold; }
 p.info{ font-size: 15px; }
