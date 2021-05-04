@@ -1,0 +1,77 @@
+/* GENERICOS */
+*{ margin: 0; padding: 0%; }
+.imag { width: auto; height: 248px; }
+.color{ background-color: rgb(139, 139, 139); width: 100%; }
+.horizontal{ background-color: rgb(219, 0, 0); width: 12px; height: 100%; }
+div.espacio{ padding: 0 0 10px 0; }
+div.servicio{ border: 1px solid #b8b7b7; margin: 5px 0px; border-radius: 4%; }
+body{ margin: 0; padding: 0; float: none; background: url('../img/Fondo.png'); background-repeat: no-repeat; background-size: cover; background-position: center center; background-attachment: fixed; }
+/* titulos */
+div.espacio{ width: auto; height: 3rem; }
+.titulo-noticia{ text-align: center; font-weight: bold; font-family: 'Montserrat', sans-serif; color: #000000; }
+p.contenido-noticia{ text-align: justify; font-family: 'Montserrat', sans-serif; color: rgb(0, 0, 0); }
+.titulo{ text-align:  center; color: #000000; padding: 0.5rem 1rem; margin: 1rem auto; background-color: rgba(0, 0, 0, 0.03); border-bottom: 1px solid rgba(0, 0, 0, 0.125); font-family: 'Montserrat', sans-serif; }
+.lista{ font-family: 'Montserrat', sans-serif; }
+span.correo{ text-align: center; font-size: 1.5rem; }
+/* BARRA DE NAVEGACION */
+img.logo{ width: 15rem; }
+nav.navbar{ background-color: rgb(139, 139, 139); height: 90px; }
+li.nav-item{ margin: 0px; }
+a.dropdown-item{color: #2fd3cb }
+a.dropdown-item:hover{ background-color: #0DB1A9; color: rgb(255, 255, 255); }
+.navbar-light .navbar-nav .nav-link{font-size: 1.5rem; text-decoration: none; color: #2fd3cb; }
+.navbar-light .navbar-nav .nav-link:hover{ background-color: #afbbba; color: #ffffff; font-size: 1.5rem;}
+a.nav-link:hover{ cursor: pointer; color: rgb(255, 255, 255); }
+@media( max-width: 600px){ nav.navbar{ background-color: rgb(139, 139, 139); height: auto; } ul.navbar-nav{ padding: 0; }li.nav-item{ border: 1px solid #0DB1A9; border-radius: 10px;} img.logo{ width: 254px; margin: 0; padding: 0; } a.nav-link{ text-align: center; } button.navbar-toggler{ margin-right: 10px; } a.dropdown-item{ text-align: center;} button.navbar-toggler{background-color: #ffff;} }
+/* BARRA SOCIAL */
+.social-bar{ position: fixed; right: 0; top: 35%; font-size: 1.5rem; display: flex; flex-direction: column; align-items: flex-end; z-index: 100; }
+.icon{ color: white; text-decoration: none; padding: .7rem; display: flex; transition: all .5s; }
+.icon-facebook{ background: #2E406E; }
+.icon-instagram{ background: #e1306c; }
+.icon-whatsapp{ background: #00bb2d; }
+.icon-youtube-play{ background: #c4302b; }
+.icon:first-child{ border-radius: 1rem 0 0 0; }
+.icon:last-child{ border-radius: 0 0 0 1rem; }
+.icon:hover{ padding-right: 3rem; border-radius: 1rem 0 0 1rem; box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.45); }
+/* FOOTER */
+footer{ text-align: center; border: 1px solid #0DB1A9; border-radius: 10px; margin: 0 0 5px 0; font-family: 'Montserrat', sans-serif;}
+/* CARRUCELES */
+span.carousel-control-prev-icon{ background-color: #0DB1A9; color: #ffffff; }
+span.carousel-control-next-icon{ background-color: #0DB1A9; color: #ffffff; }
+button.carousel-control-prev { background: unset; border: none; }
+button.carousel-control-next { background: unset; border: none; }
+/*imagenes servicios*/
+img.imagen-servicio{ padding-left: 82px; height: 200px; }
+div.leyenda p{ text-align: center; font-size: 1.5rem; font-family: 'Montserrat', sans-serif;}
+/* nosotros */
+h5.card-title{ text-align: center; color: #0DB1A9; }
+.card-header{ text-align: center; color: #00fff2; font-weight: 900; font-family: 'Montserrat', sans-serif; background: #b1acac; }
+p.card-text{ text-align: justify; font-family: 'Montserrat', sans-serif; color: #272727; font-weight: bold; }
+li.list-group-item{ text-align: justify; font-family: 'Montserrat', sans-serif; color: #272727; font-weight: bold; }
+div.margen-video{ border: 1px solid #777777; border-radius: 10%;}
+@media( max-width: 600px ){ .carta-ultima{ width: 100%; }}
+/* Servicios */
+.boton-activador{ display: inline-block; text-align: center; width: 100%; height: auto; font-size: 24px; background-color: #0DB1A9; color: #ffffff; border-radius: 12px; margin: 10px auto;}
+.boton-activador:hover{ color: #0DB1A9; background-color: #ffffff; cursor: pointer; }
+h2.card-header{ background-color: #ffffff; }
+ul.lista-servicios li{ list-style: none; text-align: center; }
+/*covid*/
+div.recomendaciones p{ text-align: justify; }
+video.videoprot{ width: 34rem; height: 21rem; }
+@media( max-width: 600px ){ video.videoprot{ width: 100%; height: auto; } }
+/*contacto*/
+span.subtitulo{ font-size: 20px; font-weight: bold; font-family: 'Montserrat', sans-serif; color: #000000; text-align: justify; }
+p.info{ font-size: 15px; text-align: justify; font-family: 'Montserrat', sans-serif; }
+ul.redes li{ list-style: none; font-size: 1.5rem; border: 1px solid #b8b7b7; border-radius: 1rem; text-align: center;}
+ul.redes li:hover{ padding-right: 3rem; border-radius: 1rem 1rem 1rem 1rem; box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.45); }
+ul.redes li a{ text-decoration: none; font-size: 1.2rem;}
+ul.redes li i{ color: #ffffff; border-radius: 1rem 1rem 1rem 1rem;}
+a.what{ list-style: none; font-size: 1.5rem; border: 1px solid #b8b7b7; border-radius: 1rem; text-align: center;}
+video.videop{ width: 100%; height: 300px; }
+@media( max-width: 600px ){ video.videop{ width: 100%; height: auto; } ui.redes li{ width: 100%; margin: 0%; padding: 0%; }}
+/* REHABILITACION */
+div.informacion p{ margin: 2.5rem auto; }
+/* FARMACIA */
+table.table{ width: 65%; margin-left: 13rem; border: 2px solid #777777;}
+table.table thead tr th{ text-align: center; }
+@media( max-width: 600px ){ table.table{ width: 100%; margin: auto; } }
