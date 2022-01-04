@@ -21,7 +21,7 @@
             </ul>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-1 servicio">
-            <h2 class="card-header">Atención Paciente SOAT</h2>
+            <h2 class="titulo">Atención Paciente SOAT</h2>
             <h4 class="titulo">Servicio de farmacia.</h4>
             <h3 class="icon-right-hand">Requisitos de Atención</h3>
             <h4 class="lista">Documentación:</h4>

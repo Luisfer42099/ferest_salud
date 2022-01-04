@@ -1,5 +1,5 @@
 <?php require_once 'views/header.php'; ?>
-<h1 class="card-header">Sede Principal</h1>
+<h1 class="card-header">Sede Asistencial</h1>
 
 <div class="container">
     <div class="row">
@@ -18,8 +18,9 @@
         </div>
         <div class="col-md-4">
             <h2 class="titulo">Contacto Directo:</h2>
-            <p class="info"><span class="subtitulo">Telefonos: </samp>4323863-3114741838</p>
-            <p class="info"><span class="subtitulo">Correo: </span>ferestsalud@outlook.com</p>
+            <p class="info"><span class="subtitulo">Telefono: </samp>4323863</p>
+            <p class="info"><span class="subtitulo">Celular: </samp>3008652562</p>
+            <p class="info"><span class="subtitulo">Correo: comercial@ferestsaludips.com</span></p>
             <p class="info"><span class="subtitulo">Encuéntranos en redes sociales como:</samp></p>
             <ul class="redes">
                 <li><a href="https://www.facebook.com/Ferest-Salud-IPS-328619361799917"><i class="icon-facebook"></i> Ferest Salud IPS</a></li>

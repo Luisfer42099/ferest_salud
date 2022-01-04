@@ -1,6 +1,7 @@
 <?php require_once 'views/header.php'; ?>
 <div class="container">
-    <h1 class="card-header">Portal Paciente Particlar</h1>
+    <h1 class="card-header">Portal Pacientes</h1>
+    <h1 class="titulo">Atencion Paciente particular</h1>
     <div class="row">
         <div class="col-md-12 servicio">
             <h4 class="titulo">Servicio de rehabilitación fisica</h4>

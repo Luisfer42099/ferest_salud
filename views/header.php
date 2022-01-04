@@ -73,14 +73,14 @@
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="portal.php" >Atención Pacientes SOAT</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="Paciente-particular.php" >Atención Pacientes Particulares</a>
+                                    <a class="dropdown-item" href="paciente-particular.php" >Atención Pacientes Particulares</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
                                     data-toggle="dropdown" >Sedes</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="sedeprincipal.php" >Sede Principal</a>
+                                    <a class="dropdown-item" href="sedeprincipal.php" >Sede Asistencial</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#" >Sede Administrativa</a>
                                 </div>

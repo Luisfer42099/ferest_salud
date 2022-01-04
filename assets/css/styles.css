@@ -42,6 +42,10 @@ button.carousel-control-prev { background: unset; border: none; }
 button.carousel-control-next { background: unset; border: none; }
 /*imagenes servicios*/
 img.imagen-servicio{ padding-left: 82px; height: 200px; }
+div.img-farmacia img{
+    width: 82%;
+    margin-left: 3rem;
+}
 div.leyenda p{ text-align: center; font-size: 1.5rem; font-family: 'Montserrat', sans-serif;}
 /* nosotros */
 h5.card-title{ text-align: center; color: #0DB1A9; }
